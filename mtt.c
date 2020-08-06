@@ -14,7 +14,8 @@
 
 #include "dns.h"
 
-#define BUFLEN 512
+#define BUFLEN 512 
+
 
 #if defined IP_RECVDSTADDR
 # define DSTADDR_SOCKOPT IP_RECVDSTADDR
